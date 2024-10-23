@@ -598,14 +598,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.qti.hardware.iop</name>
-        <version>2.0</version>
-        <interface>
-            <name>IIop</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.limits</name>
         <version>1.0-1</version>
         <interface>
@@ -626,14 +618,6 @@
         <version>1.0</version>
         <interface>
             <name>IPAL</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.qti.hardware.perf</name>
-        <version>2.0-3</version>
-        <interface>
-            <name>IPerf</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -1081,14 +1065,6 @@
         <version>1.0-1</version>
         <interface>
             <name>IQesdhal</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.qti.qspmhal</name>
-        <version>1.0</version>
-        <interface>
-            <name>IQspmhal</name>
             <instance>default</instance>
         </interface>
     </hal>
